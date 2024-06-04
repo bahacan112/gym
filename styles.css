@@ -1,0 +1,122 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: #69B99D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.main__div {
+
+    width: 1280px;
+    height: 720px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main__div .balls {
+    position: absolute;
+}
+
+.nav_a {
+    color: #7D7987;
+
+}
+
+.nav_a:hover,
+.nav__a:focus {
+    color: black;
+    font-weight: bold;
+
+}
+
+.header__nav {
+    width: 1040px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main__main_div {
+    display: flex;
+    width: 1040px;
+}
+
+.main__main_div_left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main__main_div_workouts {
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+
+}
+
+.exclusive_span {
+    color: #89C5CC;
+}
+
+.main__main_div_create {
+    color: #7D7987;
+}
+
+.span__create {
+    font-weight: bold;
+}
+
+.button_whatsapp {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding: 14px 32px;
+    background-color: #69B99D;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #69B99D;
+
+}
+
+.balls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
