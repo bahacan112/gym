@@ -80,6 +80,7 @@ a {
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-around;
+    padding: 75px 0;
 }
 
 .main__main_div_workouts {
